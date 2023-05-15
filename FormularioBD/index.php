@@ -57,6 +57,7 @@ try{
                 <th scope="col">ID</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Endereço</th>
+                <th scope="col">Bairro</th>
                 <th scope="col">CEP</th>
                 <th scope="col">Cidade</th>
                 <th scope="col">Estado</th>
@@ -69,6 +70,7 @@ try{
                 <th scope="row"><?php echo $rows[$i]['id'] ?></th>
                 <td><?php echo $rows[$i]['nome'] ?></td>
                 <td><?php echo $rows[$i]['endereco'] ?></td>
+                <td><?php echo $rows[$i]['bairro'] ?></td>
                 <td><?php echo $rows[$i]['cep'] ?></td>
                 <td><?php echo $rows[$i]['cidade'] ?></td>
                 <td><?php echo $rows[$i]['estado'] ?></td>
